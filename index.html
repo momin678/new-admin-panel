@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Admin Panel</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/bootstrap-5/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/sass.css">
     <link rel="stylesheet" href="assets/css/layouts.css">
@@ -13,6 +14,30 @@
     <link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body>
+    <div class="main-wrapper">
+        <!--  Top Navebar Start -->
+        <div class="header-container fixed-top">
+            <div class="hearder navbar navbar-expand-sm expand-header">
+                <div class="header-left d-flex">
+                    <div class="log">
+                        Mominul
+                    </div>
+                    <a href="" class="sidebarCollapse" data-placement="button">
+                        <span class="fas fa-bars"></span>
+                        <!-- <i class="fas fa-bars"></i> -->
+                    </a>
+                </div>
+                <ul class="navbar-item flex-row ml-auto">
+                    <li class="nav-item dropdown user-profile-dropdown">
+                        <a href="" class="nav-link user" id="notify" data-bs-toggle="dropdown">
+                            <img src="assets/images/bell-clipart.png" class="icon" alt="">
+                            <p class="count">5</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap-5/bootstrap.bundle.min.js"></script>
 </body>
