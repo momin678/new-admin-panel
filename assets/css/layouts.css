@@ -2,7 +2,9 @@
     background: #fff;
     box-shadow: -1px 4px 20px 1px #f1f1f185;
 }
-
+.left-menu.hide {
+    width: 0;
+}
 header.header {
     justify-content: space-between;
     align-items: center;
@@ -216,7 +218,7 @@ p.profile-list{
     box-shadow: 3px -1px 19px 1px #efeeee;
     overflow-y: scroll;
     transition: .5s;
-    margin-top: 50px;
+    margin-top: -15px;
     background: var(--white-color);
 }
 
