@@ -42,4 +42,88 @@
     font-size: 25px;
     font-weight: 600;
 }
+
+.chart-nav.active {
+    background-color: #fff !important;
+    color: var(--main-color) !important;
+    border-bottom: 2px solid var(--main-color);
+    border-radius: 0;
+}
+
+.chart-nav {
+    color: var(--second-color);
+}
+
+.chart-nav:hover {
+    color: var(--main-color);
+}
+
+.chart-nav {
+    padding: 0px 15px;
+    border-radius: 0;
+}
+
+.chart-header-tab {
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+}
+   
+
 /* ============top-section chart bottom row style======== */
+
+.bdr-cls {
+    border-right: 1px solid #dddddd6b;
+}
+.wre-sec {
+    overflow: hidden;
+    border-top: 1px solid #dddddd6b;
+}
+
+.earn-view {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.earn-icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    /* padding: 3px; */
+    line-height: 20px;
+    font-size: 16px;
+    color: var(--white-color);
+}
+
+.wallet {
+    background: var(--main-color);
+}
+
+.referral {
+    background: #7d12ce;
+}
+
+.sales {
+    background: #0ea3d0;
+}
+
+.earning {
+    background: #fbbf15;
+}
+
+.traffice-title {
+    text-align: left;
+    font-size: 17px;
+    font-weight: 500;
+    padding-left: 15px;
+}
+div#chart-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

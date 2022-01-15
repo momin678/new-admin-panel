@@ -8,6 +8,7 @@
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="assets/css/bootstrap-5/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/chart/apexcharts.css">
     <link rel="stylesheet" href="assets/css/sass.css">
     <link rel="stylesheet" href="assets/css/layouts.css">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -272,7 +273,6 @@
                                         <div class="last-month">
                                             <h5>Dashboard</h5>
                                             <p>Overview of Latest Month</p>
-
                                             <div class="earn">
                                                 <h2>$3367.98</h2>
                                                 <p>Current Month Sales</p>
@@ -284,6 +284,7 @@
                                             <a href="" class="di-btn purple-gradient">Last Month Summary</a>
                                         </div>
                                     </div>
+
                                     <div class="col-sm-8 my-2 ps-0">
                                         <div class="classic-tabs">                                            
                                             <!-- ------Nav Tabs====== -->
@@ -301,13 +302,80 @@
                                                 </ul>
                                                 <div class="tab-content" id="pills-tabContent">
                                                     <div class="tab-pane fade show active" id="pills-week" role="tabpanel" aria-labelledby="pills-week-tab">
-                                                        Week
+                                                        <div class="widget-content">
+                                                            <div id="weekly"></div>
+                                                        </div>
                                                     </div>
                                                     <div class="tab-pane fade" id="pills-month" role="tabpanel" aria-labelledby="pills-month-tab">
-                                                        Month
+                                                        <div class="widget-content">
+                                                            <div id="monthly"></div>
+                                                        </div>
                                                     </div>
                                                     <div class="tab-pane fade" id="pills-year" role="tabpanel" aria-labelledby="pills-year-tab">
-                                                        Years
+                                                        <div class="widget-content">
+                                                            <div id="yearly"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="wre-sec">
+                                        <div class="row">
+                                            <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
+                                                <div class="earn-view">
+                                                    <spna class="fas fa-crown earn-icon wallet"></spna>
+    
+                                                    <div class="earn-view-text">
+                                                        <p class="name-text">
+                                                            Wallet Ballance
+                                                        </p>
+                                                        <h6 class="balance-text">
+                                                            $1684.54
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
+                                                <div class="earn-view">
+                                                    <spna class="fas fa-heart earn-icon referral"></spna>
+    
+                                                    <div class="earn-view-text">
+                                                        <p class="name-text">
+                                                            Referral Earning
+                                                        </p>
+                                                        <h6 class="balance-text">
+                                                            $1204.54
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
+                                                <div class="earn-view">
+                                                    <spna class="fab fa-salesforce earn-icon sales"></spna>
+    
+                                                    <div class="earn-view-text">
+                                                        <p class="name-text">
+                                                            Estimate Sales
+                                                        </p>
+                                                        <h6 class="balance-text">
+                                                            $184.54
+                                                        </h6>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
+                                                <div class="earn-view">
+                                                    <spna class="fas fa-chart-line earn-icon earning"></spna>
+    
+                                                    <div class="earn-view-text">
+                                                        <p class="name-text">
+                                                            Earning
+                                                        </p>
+                                                        <h6 class="balance-text">
+                                                            $16984.54
+                                                        </h6>
                                                     </div>
                                                 </div>
                                             </div>
@@ -316,6 +384,18 @@
                                 </div>
                             </div>
                         </div>
+
+                        <div class="col-lg-4">
+                            <div class="bg-white top-chart-earn">
+                                <div class="traffice-title">
+                                    <p>Traffice</p>
+                                </div>
+                                <div class="traffic">
+                                    <div id="chart-2"></div>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
             </section>
@@ -324,6 +404,8 @@
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/bootstrap-5/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/chart/apexcharts.min.js"></script>
+    <script src="assets/js/chart/chart.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
