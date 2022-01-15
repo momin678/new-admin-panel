@@ -1,3 +1,4 @@
+                            
 .content-wrapper {
     margin-left: 240px;
     margin-top: 65px;
@@ -68,13 +69,15 @@
     justify-content: flex-end;
     align-items: center;
 }
-   
+
 
 /* ============top-section chart bottom row style======== */
+
 
 .bdr-cls {
     border-right: 1px solid #dddddd6b;
 }
+
 .wre-sec {
     overflow: hidden;
     border-top: 1px solid #dddddd6b;
@@ -94,7 +97,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 100%;
-    /* padding: 3px; */
+    padding: 3px;
     line-height: 20px;
     font-size: 16px;
     color: var(--white-color);
@@ -122,8 +125,64 @@
     font-weight: 500;
     padding-left: 15px;
 }
+
+
+/* =====================traffice chart style============= */
+
+
 div#chart-2 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
+/* =============small chart style=================== */
+
+
+.revinue.revinue-one_hybrid {
+    background: linear-gradient(121deg, rgba(194, 13, 90, 1)25%, rgb(162 101 182)100%);
+}
+
+.revinue {
+    padding-top: 15px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.w-title {
+    display: flex;
+    padding: 0 7px 10px;
+    align-items: center;
+}
+
+.w-icon {
+    font-size: 28px;
+    color: var(--white-color);
+    padding-right: var(--mb-2);
+}
+
+.sm-chart-text {
+    line-height: 20px;
+    color: var(--white-color);
+}
+
+p.w-value {
+    font-size: 16px;
+}
+
+/* ================ Page view chart ======================*/
+.page-one_hybrid {
+    background: linear-gradient(121deg, rgb(92 26 195)25%, rgb(136 25 206 / 95%)100%);
+}
+         
+/* =========bonus rate chart design======== */
+.bonuce-one_hybrid {
+    background: linear-gradient(121deg, rgb(26 179 195)25%, rgb(25 97 206 / 95%)100%);
+}
+
+/* =============revinue status chart design========== */
+.rv-status-one_hybrid {
+    background: linear-gradient(121deg, rgb(232 202 53)25%, rgb(206 125 25 / 95%)100%);
+}
+         
