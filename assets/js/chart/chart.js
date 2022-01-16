@@ -424,7 +424,7 @@ var options = {
         options: {
             chart: {
                 width: '270px',
-                height: '355px'
+                height: '300px'
             },
             legend: {
                 position: 'bottom'
@@ -435,7 +435,7 @@ var options = {
         options: {
             chart: {
                 width: '270px',
-                height: '355px'
+                height: '300px'
             },
             legend: {
                 position: 'bottom'

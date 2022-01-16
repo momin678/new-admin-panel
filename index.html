@@ -34,7 +34,7 @@
                             <p class="count purple-gradient ">5</p>
                         </a>
 
-                        <div class="dropdown-menu">
+                        <div class="dropdown-menu user-notify">
                             <div class="dp-main-menu">
                                 <a href="#" class="dropdown-item message-item">
                                     <img src="assets/images/profile.svg" alt="" class="user-note">
@@ -185,11 +185,6 @@
                             </div>
                         </div>
                     </li>
-                    <li class="nav-item dropdown user-profile-dropdown">
-                        <a href="#" class="nav-link user" id="Notify" data-bs-toggle="dropdown">
-                            <img src="assets/images/settings.svg" alt="" class="icon">
-                        </a>
-                    </li>
                 </ul>
             </header>
         </div>
@@ -263,142 +258,6 @@
         <!-- ------------------SIDEBAR END------------- -->
         <!--------------- Contain-wrapper start ---------->
         <div class="content-wrapper">
-            <section class="dashboard-top-sec">
-                <div class="container-fluid">
-                    <div class="row">
-                        <div class="col-lg-8">
-                            <div class="bg-white top-chart-earn">
-                                <div class="row">
-                                    <div class="col-sm-4 my-2 pe-0">
-                                        <div class="last-month">
-                                            <h5>Dashboard</h5>
-                                            <p>Overview of Latest Month</p>
-                                            <div class="earn">
-                                                <h2>$3367.98</h2>
-                                                <p>Current Month Sales</p>
-                                            </div>
-                                            <div class="sale mb-3">
-                                                <h2>95</h2>
-                                                <p>Current Month Sales</p>
-                                            </div>
-                                            <a href="" class="di-btn purple-gradient">Last Month Summary</a>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-sm-8 my-2 ps-0">
-                                        <div class="classic-tabs">                                            
-                                            <!-- ------Nav Tabs====== -->
-                                            <div class="tabs-wrapper">
-                                                <ul class="nav nav-pills chart-header-tab mb-3" id="pills-tab" role="tablist">
-                                                    <li class="nav-item">
-                                                        <a href="#" class="nav-link chart-nav active" id="pills-week-tab" data-bs-toggle="pill" data-bs-target="#pills-week" type="button" role="tab" aria-controls="pills-week" aria-selected="true">Week</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a href="#" class="nav-link chart-nav" id="pills-month-tab" data-bs-toggle="pill" data-bs-target="#pills-month" type="button" role="tab" aria-controls="pills-month" aria-selected="false">Month</a>
-                                                    </li>
-                                                    <li class="nav-item">
-                                                        <a href="#" class="nav-link chart-nav" id="pills-year-tab" data-bs-toggle="pill" data-bs-target="#pills-year" type="button" role="tab" aria-controls="pills-year" aria-selected="false">year</a>
-                                                    </li>
-                                                </ul>
-                                                <div class="tab-content" id="pills-tabContent">
-                                                    <div class="tab-pane fade show active" id="pills-week" role="tabpanel" aria-labelledby="pills-week-tab">
-                                                        <div class="widget-content">
-                                                            <div id="weekly"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="pills-month" role="tabpanel" aria-labelledby="pills-month-tab">
-                                                        <div class="widget-content">
-                                                            <div id="monthly"></div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="tab-pane fade" id="pills-year" role="tabpanel" aria-labelledby="pills-year-tab">
-                                                        <div class="widget-content">
-                                                            <div id="yearly"></div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div class="wre-sec">
-                                        <div class="row">
-                                            <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
-                                                <div class="earn-view">
-                                                    <spna class="fas fa-crown earn-icon wallet"></spna>
-    
-                                                    <div class="earn-view-text">
-                                                        <p class="name-text">
-                                                            Wallet Ballance
-                                                        </p>
-                                                        <h6 class="balance-text">
-                                                            $1684.54
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
-                                                <div class="earn-view">
-                                                    <spna class="fas fa-heart earn-icon referral"></spna>
-    
-                                                    <div class="earn-view-text">
-                                                        <p class="name-text">
-                                                            Referral Earning
-                                                        </p>
-                                                        <h6 class="balance-text">
-                                                            $1204.54
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
-                                                <div class="earn-view">
-                                                    <spna class="fab fa-salesforce earn-icon sales"></spna>
-    
-                                                    <div class="earn-view-text">
-                                                        <p class="name-text">
-                                                            Estimate Sales
-                                                        </p>
-                                                        <h6 class="balance-text">
-                                                            $184.54
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="col-md-3 col-sm-3 col-6 my-1 bdr-cls">
-                                                <div class="earn-view">
-                                                    <spna class="fas fa-chart-line earn-icon earning"></spna>
-    
-                                                    <div class="earn-view-text">
-                                                        <p class="name-text">
-                                                            Earning
-                                                        </p>
-                                                        <h6 class="balance-text">
-                                                            $16984.54
-                                                        </h6>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-4">
-                            <div class="bg-white top-chart-earn">
-                                <div class="traffice-title">
-                                    <p>Traffice</p>
-                                </div>
-                                <div class="traffic">
-                                    <div id="chart-2"></div>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </section>
             <section>
                 <div class="sm-chart-sec my-5">
                     <div class="container-fluid">
@@ -468,6 +327,176 @@
 
                                     <div class="revinue-content">
                                         <div id="rv_status_chart4"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="dashboard-top-sec">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="bg-white top-chart-earn">
+                                <div class="my-2 ps-0">
+                                    <div class="classic-tabs">                                            
+                                        <!-- ------Nav Tabs====== -->
+                                        <div class="tabs-wrapper">
+                                            <ul class="nav nav-pills chart-header-tab mb-3" id="pills-tab" role="tablist">
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link chart-nav active" id="pills-week-tab" data-bs-toggle="pill" data-bs-target="#pills-week" type="button" role="tab" aria-controls="pills-week" aria-selected="true">Week</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link chart-nav" id="pills-month-tab" data-bs-toggle="pill" data-bs-target="#pills-month" type="button" role="tab" aria-controls="pills-month" aria-selected="false">Month</a>
+                                                </li>
+                                                <li class="nav-item">
+                                                    <a href="#" class="nav-link chart-nav" id="pills-year-tab" data-bs-toggle="pill" data-bs-target="#pills-year" type="button" role="tab" aria-controls="pills-year" aria-selected="false">year</a>
+                                                </li>
+                                            </ul>
+                                            <div class="tab-content" id="pills-tabContent">
+                                                <div class="tab-pane fade show active" id="pills-week" role="tabpanel" aria-labelledby="pills-week-tab">
+                                                    <div class="widget-content">
+                                                        <div id="weekly"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="pills-month" role="tabpanel" aria-labelledby="pills-month-tab">
+                                                    <div class="widget-content">
+                                                        <div id="monthly"></div>
+                                                    </div>
+                                                </div>
+                                                <div class="tab-pane fade" id="pills-year" role="tabpanel" aria-labelledby="pills-year-tab">
+                                                    <div class="widget-content">
+                                                        <div id="yearly"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="row">
+                                <div class="col-lg-6  col-md-6 col-sm-6 col-12">
+                                    <div class="top-chart-earn">
+                                        <div class="traffice-title">
+                                            <p>Traffice</p>
+                                        </div>
+                                        <div class="traffic">
+                                            <div id="chart-2"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6 col-sm-6  col-12 pe-0 bg-white">
+                                    <div class="last-month">
+                                        <h5 class="mt-2">Dashboard</h5>
+                                        <p>Overview of Latest Month</p>
+                                        <div class="earn">
+                                            <h2>$3367.98</h2>
+                                            <p>Current Month Sales</p>
+                                        </div>
+                                        <div class="sale mb-3">
+                                            <h2>95</h2>
+                                            <p>Current Month Sales</p>
+                                        </div>
+                                        <a href="" class="di-btn purple-gradient mb-4">Last Month Summary</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div class="sm-chart-sec my-5">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-6 col-sm-6 my-2">
+                                <div class="revinue revinue-one_hybrid">
+                                    <div class="revinue-hedding">
+                                        <div class="w-title">
+                                            <div class="w-icon">
+                                                <span class="fas fa-users"></span>
+                                            </div>
+                                            <div class="earn-view-text">
+                                                <p class="name-text">
+                                                    Wallet Ballance
+                                                </p>
+                                                <h6 class="balance-text">
+                                                    $1684.54
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="revinue-content">
+                                        <div id="hybrid_followers"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 my-2">
+                                <div class="revinue page-one_hybrid">
+                                    <div class="revinue-hedding">
+                                        <div class="w-title">
+                                            <div class="w-icon">
+                                                <spna class="fas fa-heart earn-icon referral"></spna>
+                                            </div>
+                                            <div class="earn-view-text">
+                                                <p class="name-text">
+                                                    Referral Earning
+                                                </p>
+                                                <h6 class="balance-text">
+                                                    $1204.54
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="revinue-content">
+                                        <div id="hybrid_followers1"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 my-2">
+                                <div class="revinue bonuce-one_hybrid">
+                                    <div class="revinue-hedding">
+                                        <div class="w-title">
+                                            <div class="w-icon">
+                                                <spna class="fab fa-salesforce earn-icon sales"></spna>
+                                            </div>
+                                            <div class="earn-view-text">
+                                                <p class="name-text">
+                                                    Wallet Ballance
+                                                </p>
+                                                <h6 class="balance-text">
+                                                    $1684.54
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="revinue-content">
+                                        <div id="hybrid_followers"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6 col-sm-6 my-2">
+                                <div class="revinue rv-status-one_hybrid">
+                                    <div class="revinue-hedding">
+                                        <div class="w-title">
+                                            <div class="w-icon">
+                                                <spna class="fas fa-chart-line earn-icon earning"></spna>
+                                            </div>
+                                            <div class="earn-view-text">
+                                                <p class="name-text">
+                                                    Referral Earning
+                                                </p>
+                                                <h6 class="balance-text">
+                                                    $1204.54
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="revinue-content">
+                                        <div id="hybrid_followers1"></div>
                                     </div>
                                 </div>
                             </div>
