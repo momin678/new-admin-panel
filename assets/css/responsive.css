@@ -21,11 +21,20 @@
     }
 }
 @media screen and (max-width:992px) {
-    .top-chart-earn{
+    /* .top-chart-earn{
         margin: 10px 0;
+    } */
+    .left-menu{
+        background: #000000;
+    }
+    .logo{
+        display: none;
     }
 }
 @media screen and (max-width:540px) {
+    .left-menu{
+        background: #000000;
+    }
     .logo{
         display: none;
     }
@@ -35,3 +44,21 @@
         padding-left: 60px;
     }
 }
+  
+@media screen and (max-width: 700px) {
+    .input-searching{
+        width: 200px;
+        height: 35px;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .input-searching{
+        width: 150px;
+        height: 35px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .searching{
+        display: none;
+    }
+  }

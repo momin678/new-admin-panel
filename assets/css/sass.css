@@ -13,7 +13,7 @@
     /* =============colors=========== */
     --main-color: #c20d5a;
     --second-color: rgb(7, 3, 45);
-    --main-grident: linear-gradient(121deg, rgba(194, 13, 90, 1) 25%, rgb(255 0 194 / 42%) 100%);
+    --main-grident: linear-gradient(121deg, rgb(13 27 194 / 94%) 25%, rgb(255 0 194 / 0%) 100%);
     --dark-bg: #383848;
     --main-color-alt: #af547d;
     --text-color: #707070;
