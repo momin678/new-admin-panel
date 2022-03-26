@@ -5,9 +5,8 @@
         position: absolute;
         box-shadow: 3px -1px 19px 1px #ddd;
         overflow-y: scroll;
-        background: var(--whit-color);
+        background: #000000;
         transition: .5s;
-        margin-top: -5px;
         z-index: 99;
     }
     .content-wrapper{
@@ -21,9 +20,6 @@
     }
 }
 @media screen and (max-width:992px) {
-    /* .top-chart-earn{
-        margin: 10px 0;
-    } */
     .left-menu{
         background: #000000;
     }
